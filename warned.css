@@ -1,0 +1,23 @@
+.warned {
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    padding-left: 12pt;
+    padding-right: 20pt;
+    color: white;
+    border-radius: 12px;
+    border: 6px solid #E58BAA;
+    text-align: justify;
+    background-color: #1f2429;
+    font-family: Quicksand, sans-serif;
+    font-weight: 1000;
+}
+.warned:before {
+	font-size:17pt;
+  font-weight: 1000;
+  font-family: Quicksand, sans-serif;
+}
+.warned:before { content: "Please Take a Note!  "; color:#E58BAA;}
+.warned1 {
+padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; color:white; font-size:11pt;
+}
+.warned1:before { content: "hafuun's subtitles releases are forever beta. There might be errors in translations, grammar, timing, etc. If you found error(s), please do let me know (on Twitter, Facebook, wherever you like) the link to the post. If possible, also provide the time stamp(s) of the line(s), and how to improve that line(s). There might be improved versions of the subtitles in the future. ";}
