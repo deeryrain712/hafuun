@@ -60,7 +60,7 @@ color: #6d6d6d;
 .box-list a:hover {
 color: #222;
 }
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 360px) {
 .box-list strong {width:100%}
 .box-title {text-align:center}
 }
