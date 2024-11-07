@@ -1,0 +1,25 @@
+.dont {
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    padding-left: 12pt;
+    padding-right: 20pt;
+    color: white;
+    border-radius: 12px;
+    border: 6px solid #E58BAA;
+    text-align: justify;
+    background-color: #1f2429;
+    font-family: Quicksand, sans-serif;
+    font-weight: 1000;
+}
+.dont:before, .how:before {
+	font-size:17pt;
+  font-weight: 1000;
+  font-family: Quicksand, sans-serif;
+}
+.dont:before { content: "Please Do Not Do Any of This!  "; color:#E58BAA;}
+.dont1, .dont2, .dont3 {
+padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; color:white; font-size:11pt;
+}
+.dont1:before { content: "Sell this works for any purposes (such as putting shortlink, etc. as I want to keep it free for everyone). ";}
+.dont2:before { content: "Remove my watermark or add any watermark to this work and claim it as your own work. ";}
+.dont3:before { content: "Share the direct link anywhere, for any purposes. If necessary please direct it to this blog.  ";}
