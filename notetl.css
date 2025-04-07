@@ -1,0 +1,7 @@
+.notetl {
+font-family: Quicksand, sans-serif;
+color:white;
+text-align:justify;
+}
+
+.noted:before { content: "Translation is far from perfect. Apologize in advance for any mistranslation and/or mistakes. Critic(s) and/or correction(s) are very welcome and appreciated."}
