@@ -1,0 +1,43 @@
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 650px;
+  height: 40px;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+.btn-my {
+  background: #E58BAA;
+  border: none;
+  z-index: 1;
+}
+.btn-my:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #ce7d99;
+  transition: all 0.3s ease;
+}
+.btn-my:hover {
+  color: #fff;
+}
+.btn-my:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-my:active {
+  top: 2px;
+}

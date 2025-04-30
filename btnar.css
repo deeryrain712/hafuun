@@ -1,0 +1,86 @@
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 750px;
+  height: 40px;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+.btn-ar {
+  background: #E58BAA;
+  width: 750px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-ar span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.btn-ar:before,
+.btn-ar:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: #ce7d99;
+  transition: all 0.3s ease;
+}
+.btn-ar:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-ar:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-ar:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-ar:hover:before {
+  height: 100%;
+}
+.btn-ar:hover:after {
+  width: 100%;
+}
+.btn-ar span:hover{
+   color: #ce7d99;
+}
+.btn-ar span:before,
+.btn-ar span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: #ce7d99;
+  transition: all 0.3s ease;
+}
+.btn-ar span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-ar span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-ar span:hover:before {
+  height: 100%;
+}
+.btn-ar span:hover:after {
+  width: 100%;
+}
