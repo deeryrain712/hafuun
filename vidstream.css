@@ -1,0 +1,44 @@
+.vidstream button{
+  background:#0f1012;
+  color:#ffffff;
+  border:none;
+  padding: 8px 15px 8px 15px;
+  font-family:Quicksand, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px 5px 0px 0px;
+  text-transform:capitalize;
+  cursor:pointer;
+} 
+.vidstream button.active{
+  color: #ffffff;
+  background:#E58BAA;
+} 
+.vidstream>div{
+  padding: 10px 10px 5px 10px;
+  background:#0f1012;
+  font-family:Quicksand, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color:#fff;
+} 
+.vidstream iframe{
+  width:100%!important;
+  height:400px;
+} 
+@media screen and (max-width:960px)
+{
+.vidstream iframe{max-height:90%}
+} 
+@media screen and (max-width:768px)
+{
+.vidstream iframe{max-height:75%}
+} 
+@media screen and (max-width:600px)
+{
+.vidstream iframe{max-height:60%}
+}
+ @media screen and (max-width:480px)
+{
+.vidstream iframe{height:auto!important;max-height:auto!important}
+}
